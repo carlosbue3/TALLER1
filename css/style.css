@@ -4,38 +4,61 @@ html{
   }
 
 head { font-family:fantasy
-}
+   }
 
  h1 {font-size: 60px;
     text-align: center; }
 
  p, li {font-size: 16px;
+   text-align: center;
     line-height: 2;
-    letter-spacing: 1px; }
+    letter-spacing: 1px; 
+    list-style: none;   
+   }
 
 
  html {
-    background-color: #aef0f0;
+    background-color: #ffffff;
   }
  body{width: 1300px;
     margin: 0 auto;
-    background-color: #df8ed1;
+    background-color: #48bdeb;
     padding: 0 20px 20px 20px;
-    border: 5px solid rgb(145, 0, 36);}
+    border: 5px solid rgb(145, 0, 36);
+   background-image: url() ;}
 
  p { }
 
- h1 {margin: 20;
+ h1 {
+   font-size: 60px;
+   margin: 20;
     padding: 20px 0;
     color: #00539F;
-    text-shadow: 3px 3px 1px black;
+    text-shadow: 2px 2px 1px #f19d9d;
    }
 
+   h3{font-size: 35px;
+      text-align: center; }
 
  img {
     display: block;
     margin: 0 auto;
-}
+
+    }
+
+    .contenedorcolumnas{max-width: 1000px;
+   margin: auto;
+   background-color:#f19d9d;
+   padding:50px;}
+
+
+    
+      .listarecom{column-count: 3;
+      column-gap:100px;
+      column-rule: 5px outset #48bdeb;}
+
+
+
 
 
 
